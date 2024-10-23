@@ -15,14 +15,7 @@ Included is a gradient-based functor network map as a 3D display for penguin mig
 To get started, install the following Julia packages:
 
 ```julia
-Pkg.add("PlotlyJS")
-Pkg.add("CSV")
-Pkg.add("DataFrames")
-Pkg.add("Interpolations")  # Optional for missing value interpolation
-Pkg.add("CategoricalArrays")
-Pkg.add("Turing")     # For Bayesian inference (optional)
-Pkg.add("GraphPlot")   # For graph visualization
-Pkg.add("LightGraphs") # For graph operations
+Pkg.add("PlotlyJS", CSV, DataFrames, Interpolations, CategoricalArrays, PooledArrays, Interpolations, Turing, GraphPlot, LightGraphs )
 
 using Pkg; Pkg.add("CSV", "DataFrames", "PalmerPenguins", "Statistics", "PooledArrays", "PlotlyJS", "Python" ### again, depending on python's path
 include("penguin_3dplot.jl")
