@@ -4,17 +4,25 @@ Included is a gradient-based functor network map as a 3D display for penguin mig
 
 All that is needed is:
 
+# Penguin Migration 3D Visualization Project
+
+This project builds on research from classification problems using the Palmer Penguins dataset.
+
+Included is a gradient-based functor network map as a 3D display for penguin migrations and variability sourced from the `PalmerPenguins.jl` dataset and library.
+
+## Requirements
+
+To get started, install the following Julia packages:
+
+```julia
 Pkg.add("PlotlyJS")
 Pkg.add("CSV")
 Pkg.add("DataFrames")
-Pkg.add("Interpolations")  # Optional, only if you need to interpolate missing values
+Pkg.add("Interpolations")  # Optional for missing value interpolation
 Pkg.add("CategoricalArrays")
-Pkg.add("Turing")     # For Bayesian inference (optional if you want to run inference)
+Pkg.add("Turing")     # For Bayesian inference (optional)
 Pkg.add("GraphPlot")   # For graph visualization
-Pkg.add("LightGraphs") # For working with graphs
-Pkg.add("") CSV, DataFrames, PalmerPenguins, Statistics, PooledArrays, PlotlyJS, Python ## depends on your local Python PATH variable
-
-after this is set, run:
+Pkg.add("LightGraphs") # For graph operations
 
 using Pkg; Pkg.add("CSV", "DataFrames", "PalmerPenguins", "Statistics", "PooledArrays", "PlotlyJS", "Python" ### again, depending on python's path
 include("penguin_3dplot.jl")
