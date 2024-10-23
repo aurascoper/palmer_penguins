@@ -2,10 +2,6 @@ This project builds on research from the classification problems within penguins
 
 Included is a gradient-based functor network map as a 3D display for penguin migrations and variabity sourced from the PalmerPenguins.jl dataset and library.
 
-All that is needed is:
-
-# Penguin Migration 3D Visualization Project
-
 This project builds on research from classification problems using the Palmer Penguins dataset.
 
 Included is a gradient-based functor network map as a 3D display for penguin migrations and variability sourced from the `PalmerPenguins.jl` dataset and library.
