@@ -1,4 +1,4 @@
-This project builds on research on the classification of penguins within the Palmer Penguins dataset.
+This project builds on research from the classification problems within penguins within the Palmer Penguins dataset.
 
 Included is a gradient-based functor network map as a 3D display for penguin migrations and variabity sourced from the PalmerPenguins.jl dataset and library.
 
