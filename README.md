@@ -1,5 +1,3 @@
-citation("palmerpenguins")
-#> 
 #> This work builds on the work of:
 #> 
 #>   Horst AM, Hill AP, Gorman KB (2020). palmerpenguins: Palmer
