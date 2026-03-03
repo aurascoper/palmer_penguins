@@ -13,7 +13,7 @@ To get started, install the following Julia packages:
 using Pkg; Pkg.add("CSV", "DataFrames", "PalmerPenguins", "Statistics", "PooledArrays", "PlotlyJS", "Python" ### 
 include("penguin_3dplot.jl")
 
-Thereafter, your IDE should render the interactive plot, if you have your Jupyter set up, you can run multidispatch, including the penguins_multiclass.ipynb
+Thereafter, your IDE should render the interactive plot.
 
 
 To find out more about the original research, please reference:
