@@ -1,8 +1,5 @@
 using CSV, DataFrames, PalmerPenguins, Statistics, PooledArrays, PlotlyJS
 
-# Import Python libraries using Python.jl
-@pyimport numpy as np
-
 # Step 1: Load the Palmer Penguins dataset and drop missing values
 penguins = dropmissing(DataFrame(PalmerPenguins.load()))
 
