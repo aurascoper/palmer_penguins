@@ -1,4 +1,4 @@
-using CSV, DataFrames, PalmerPenguins, Statistics, PooledArrays, PlotlyJS, Python
+using CSV, DataFrames, PalmerPenguins, Statistics, PooledArrays, PlotlyJS
 
 # Import Python libraries using Python.jl
 @pyimport numpy as np
